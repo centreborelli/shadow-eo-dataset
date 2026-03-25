@@ -8,6 +8,10 @@ This repository is intended as a **reproducibility-first research release**. It 
 
 The public dataset and model artifacts are available in the [Hugging Face Shadow EO collection](https://huggingface.co/collections/emasquil/shadow-eo), and the companion training and evaluation code is available in the [shadow-eo-detection repository](https://github.com/centreborelli/shadow-eo-detection).
 
+```bash
+git lfs clone git@hf.co:datasets/emasquil/shadow-eo
+```
+
 ## Project Summary
 
 > We introduce the S-EO dataset: a large-scale, high-resolution dataset, designed to advance geometry-aware shadow detection Collected from diverse public-domain sources, including challenge datasets and government providers such as USGS, our dataset comprises 702 georeferenced tiles across the USA, each covering 500x500 m. Each tile includes multi-date, multi-angle WorldView-3 pansharpened RGB images, panchromatic images, and a ground-truth DSM of the area obtained from LiDAR scans. For each image, we provide a shadow mask derived from geometry and sun position, a vegetation mask based on the NDVI index, and a bundle-adjusted RPC model. With approximately 20,000 images, the S-EO dataset establishes a new public resource for shadow detection in remote sensing imagery and its applications to 3D reconstruction. To demonstrate the dataset's impact, we train and evaluate a shadow detector, showcasing its ability to generalize, even to aerial images. Finally, we extend EO-NeRF - a state-of-the-art NeRF approach for satellite imagery - to leverage our shadow predictions for improved 3D reconstructions.
