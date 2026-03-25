@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use the S-EO dataset or this repository, please cite the paper below."
+title: "S-EO Dataset Creation Code"
+repository-code: "https://github.com/centreborelli/shadow-eo-dataset"
+url: "https://github.com/centreborelli/shadow-eo-dataset"
+authors:
+  - family-names: "Masquil"
+    given-names: "Elias"
+  - family-names: "Mari"
+    given-names: "Roger"
+  - family-names: "Ehret"
+    given-names: "Thibaud"
+  - family-names: "Meinhardt-Llopis"
+    given-names: "Enric"
+  - family-names: "Muse"
+    given-names: "Pablo"
+  - family-names: "Facciolo"
+    given-names: "Gabriele"
+preferred-citation:
+  type: conference-paper
+  title: "S-EO: A Large-Scale Dataset for Geometry-Aware Shadow Detection in Remote Sensing Applications"
+  authors:
+    - family-names: "Masquil"
+      given-names: "Elias"
+    - family-names: "Mari"
+      given-names: "Roger"
+    - family-names: "Ehret"
+      given-names: "Thibaud"
+    - family-names: "Meinhardt-Llopis"
+      given-names: "Enric"
+    - family-names: "Muse"
+      given-names: "Pablo"
+    - family-names: "Facciolo"
+      given-names: "Gabriele"
+  year: 2025
+  booktitle: "Proceedings of the 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+  url: "https://ieeexplore.ieee.org/document/11147657"
